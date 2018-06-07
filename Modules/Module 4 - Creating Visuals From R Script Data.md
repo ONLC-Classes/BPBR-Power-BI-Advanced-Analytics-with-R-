@@ -3,7 +3,7 @@ Creating visuals from R script data
 Now we can create a visual to see how the R script code using the *mice*
 library completed the missing values, as shown in the following image:
 
-![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_8a.png](.//media/img1mod4.png)
+![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_8a.png](/media/img1mod4.png)
 
 Once that visual is complete, and any other visuals you might want to
 create using **Power BI Desktop**, you can save the **Power BI Desktop**
