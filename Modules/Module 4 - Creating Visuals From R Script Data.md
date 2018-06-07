@@ -154,7 +154,7 @@ Note
 Want to see a completed .pbix file with these steps completed? You\'re
 in luck - you can download the completed **Power BI Desktop** file used
 in these examples [[right
-here]{.underline}](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix).
+here]](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix).
 
 Once you\'ve uploaded the .pbix file to the Power BI service, a couple
 more steps are necessary to enable data refresh (in the service) and to
