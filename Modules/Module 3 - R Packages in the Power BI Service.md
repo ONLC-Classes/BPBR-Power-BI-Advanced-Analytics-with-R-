@@ -442,8 +442,8 @@ R scripts that are not supported in Power BI
 The following table shows which packages are **not supported** in the
 Power BI service.
 
-  **Package**   **Request Date**   **Reason**
-  ------------- ------------------ ------------------------------------
-  RgoogleMaps   10/05/2016         Networking is blocked
-  mailR         10/03/2016         Networking is blocked
-  RevoScaleR    8/30/2016          ships only with Microsoft R Server
+  **Package**   | **Request Date**   | **Reason**
+  ------------- | ------------------ | ------------------------------------
+  RgoogleMaps   | 10/05/2016         | Networking is blocked
+  mailR         | 10/03/2016         | Networking is blocked
+  RevoScaleR    | 8/30/2016          | ships only with Microsoft R Server
