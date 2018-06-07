@@ -20,12 +20,12 @@ You can choose which R IDE to use, with the following options:
 
 -   You can install your favorite R IDE, many of which are available for
     > free, such as the [[Revolution Open download
-    > page]{.underline}](https://mran.revolutionanalytics.com/download/),
+    > page]](https://mran.revolutionanalytics.com/download/),
     > and the [[CRAN
-    > Repository]{.underline}](https://cran.r-project.org/bin/windows/base/).
+    > Repository]](https://cran.r-project.org/bin/windows/base/).
 
 -   **Power BI Desktop** also supports [[R
-    > Studio]{.underline}](https://www.rstudio.com/) and **Visual Studio
+    > Studio]](https://www.rstudio.com/) and **Visual Studio
     > 2015** with [*R Tools for Visual
     > Studio*](https://beta.visualstudio.com/vs/rtvs/) editors.
 
