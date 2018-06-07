@@ -24,7 +24,7 @@ You can choose which R IDE to use, with the following options:
     > and the [[CRAN
     > Repository]](https://cran.r-project.org/bin/windows/base/).
 
--   **Power BI Desktop** also supports [[R
+-   **Power BI Desktop** also supports R
     > Studio]](https://www.rstudio.com/) and **Visual Studio
     > 2015** with [*R Tools for Visual
     > Studio*](https://beta.visualstudio.com/vs/rtvs/) editors.
