@@ -72,23 +72,24 @@ R packages that are supported in Power BI
 The following table shows which packages **are supported** in the Power
 BI service.
 
-  **Package**             | **Version**   **Link**
-  ----------------------- | ------------- ----------------------------------------------------------------------------
-  abc                     | 2.1           <https://cran.r-project.org/web/packages/abc/index.html>
-  abc.data                | 1             <https://cran.r-project.org/web/packages/abc.data/index.html>
-  acepack                 |1.3-3.3       <https://cran.r-project.org/web/packages/acepack/index.html>
-  actuar                  |1.2-0         <https://cran.r-project.org/web/packages/actuar/index.html>
-  ade4                    |1.7-4         <https://cran.r-project.org/web/packages/ade4/index.html>
-  AdMit                   |2.0.1         <https://cran.r-project.org/web/packages/AdMit/index.html>
-  andrews                 |1             <https://cran.r-project.org/web/packages/andrews/index.html>
-  aod                     |1.3           <https://cran.r-project.org/web/packages/aod/index.html>
-  apcluster               |1.4.3         <https://cran.r-project.org/web/packages/apcluster/index.html>
-  ape                     |3.4           <https://cran.r-project.org/web/packages/ape/index.html>
-  aplpack                 |1.3.0         <https://cran.r-project.org/web/packages/aplpack/index.html>
-  approximator            |1.2-6         <https://cran.r-project.org/web/packages/approximator/index.html>
-  arm                     |1.8-6         <https://cran.r-project.org/web/packages/arm/index.html>
-  arules                  |1.4-0         <https://cran.r-project.org/web/packages/arules/index.html>
-  arulesViz               1.1-0         <https://cran.r-project.org/web/packages/arulesViz/index.html>
+  **Package**             | **Version**   | **Link**
+  ----------------------- | ------------- | ----------------------------------------------------------------------------
+  abc                     | 2.1           | <https://cran.r-project.org/web/packages/abc/index.html>
+  abc.data                | 1             | <https://cran.r-project.org/web/packages/abc.data/index.html>
+  acepack                 | 1.3-3.3       | <https://cran.r-project.org/web/packages/acepack/index.html>
+  actuar                  | 1.2-0         | <https://cran.r-project.org/web/packages/actuar/index.html>
+  ade4                    | 1.7-4         | <https://cran.r-project.org/web/packages/ade4/index.html>
+  AdMit                   | 2.0.1         | <https://cran.r-project.org/web/packages/AdMit/index.html>
+  andrews                 | 1             | <https://cran.r-project.org/web/packages/andrews/index.html>
+  aod                     | 1.3           | <https://cran.r-project.org/web/packages/aod/index.html>
+  apcluster               | 1.4.3         | <https://cran.r-project.org/web/packages/apcluster/index.html>
+  ape                     | 3.4           | <https://cran.r-project.org/web/packages/ape/index.html>
+  aplpack                 | 1.3.0         | <https://cran.r-project.org/web/packages/aplpack/index.html>
+  approximator            | 1.2-6         | <https://cran.r-project.org/web/packages/approximator/index.html>
+  arm                     | 1.8-6         | <https://cran.r-project.org/web/packages/arm/index.html>
+  arules                  | 1.4-0         | <https://cran.r-project.org/web/packages/arules/index.html>
+  arulesViz               | 1.1-0         | <https://cran.r-project.org/web/packages/arulesViz/index.html>
+
   assertthat              0.1           <https://cran.r-project.org/web/packages/assertthat/index.html>
   BACCO                   2.0-9         <https://cran.r-project.org/web/packages/BACCO/index.html>
   BaM                     0.99          <https://cran.r-project.org/web/packages/BaM/index.html>
