@@ -3,8 +3,7 @@ Creating visuals from R script data
 Now we can create a visual to see how the R script code using the *mice*
 library completed the missing values, as shown in the following image:
 
-![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_8a.png](.//media/image1.png){width="9.604166666666666in"
-height="5.645833333333333in"}
+![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_8a.png](.//media/image1.png)
 
 Once that visual is complete, and any other visuals you might want to
 create using **Power BI Desktop**, you can save the **Power BI Desktop**
@@ -46,15 +45,13 @@ There are some limitations to queries that include R scripts created in
     > To get to data source settings, in **Power BI Desktop** select
     > **File \> Options and settings \> Data source settings**.
 
-> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_9.png](.//media/image2.png){width="7.958333333333333in"
-> height="5.552083333333333in"}
+> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_9.png](.//media/image2.png)
 >
 > From the **Data Source Settings** dialog, select the data source(s)
 > and then select **Edit Permissions\...** and ensure that the **Privacy
 > Level** is set to *Public*.
 >
-> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_10.png](.//media/image3.png){width="8.40625in"
-> height="6.135416666666667in"}
+> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_10.png](.//media/image3.png)
 
 -   To enable scheduled refresh of your R visuals or dataset, you need
     > to enable **Scheduled refresh** and have a **Personal Gateway**
