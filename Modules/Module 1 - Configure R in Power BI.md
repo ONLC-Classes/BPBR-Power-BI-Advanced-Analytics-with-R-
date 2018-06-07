@@ -27,7 +27,7 @@ and follow along. The steps for this example are the following:
     > load the *EuStockMarkets\_NA.csv* file and select **Get Data \>
     > CSV** from the **Home** ribbon in **Power BI Desktop**.
 
-> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_1.png](.//media/image1.png)
+> ![](.//Media/img1mod1.png)
 
 2.  Select the file and select **Open**, and the CSV is displayed in the
     > **CSV file** dialog.
