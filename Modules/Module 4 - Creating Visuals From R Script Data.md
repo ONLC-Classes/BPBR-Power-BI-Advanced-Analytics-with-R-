@@ -51,7 +51,7 @@ There are some limitations to queries that include R scripts created in
 > and then select **Edit Permissions\...** and ensure that the **Privacy
 > Level** is set to *Public*.
 >
-> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_10.png](.//media/image3.png)
+![](.//Media/img3mod4.png)
 
 -   To enable scheduled refresh of your R visuals or dataset, you need
     > to enable **Scheduled refresh** and have a **Personal Gateway**
