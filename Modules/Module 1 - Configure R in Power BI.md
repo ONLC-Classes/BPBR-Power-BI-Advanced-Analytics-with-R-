@@ -27,22 +27,22 @@ and follow along. The steps for this example are the following:
     > load the *EuStockMarkets\_NA.csv* file and select **Get Data \>
     > CSV** from the **Home** ribbon in **Power BI Desktop**.
 
-> ![](.//Media/img1mod1.png)
+![](.//Media/img1mod1.png)
 
 2.  Select the file and select **Open**, and the CSV is displayed in the
     > **CSV file** dialog.
 
-> ![](.//Media/img2mod1.png)
+![](.//Media/img2mod1.png)
 
 3.  Once the data is loaded, you\'ll see it in the **Fields** pane in
     > Power BI Desktop.
 
-> ![](.//Media/img3mod1.png)
+![](.//Media/img3mod1.png)
 
 4.  Open **Query Editor** by selecting **Edit Queries** from the
     > **Home** tab in **Power BI Desktop**.
 
-> ![](.//Media/img4mod1.png)
+![](.//Media/img4mod1.png)
 
 5.  In the **Transform** tab, select **Run R Script** and the **Run R
     > Script** editor appears (shown in the next step). Notice that rows
@@ -50,7 +50,7 @@ and follow along. The steps for this example are the following:
     > see in the following image. The steps below show how R can (and
     > will) complete those rows for you.
 
-> ![](.//Media/img5mod1.png)
+![](.//Media/img5mod1.png)
 
 6.  For this example, enter the following script code:
 
@@ -76,19 +76,19 @@ and follow along. The steps for this example are the following:
 > When put into the **Run R Script** dialog, the code looks like the
 > following:
 >
-> ![](.//Media/img6mod1.png)
+![](.//Media/img6mod1.png)
 
 7.  After selecting **OK**, **Query Editor** displays a warning about
     > data privacy.
 
-> ![](.//Media/img7mod1.png)
+![](.//Media/img7mod1.png)
 
 8.  For the R scripts to work properly in the Power BI service, all data
     > sources need to be set to *public*. For more information about
     > privacy settings and their implications, see [Privacy
     > Levels](https://docs.microsoft.com/en-us/power-bi/desktop-privacy-levels).
 
-> ![](.//Media/img8mod1.png)
+![](.//Media/img8mod1.png)
 >
 > Notice a new column in the **Fields** pane called *completedValues*.
 > Notice there are a few missing data elements, such as on row 15 and
@@ -150,7 +150,7 @@ Run your R script and import data
     > Settings** to display installation options, or to select which
     > installation you want to run the R script.
 
-> ![](.//Media/img9mod1.png)
+![](.//Media/img9mod1.png)
 >
 > If R is installed and is not identified, you can explicitly provide
 > its location in the text box provided when you expand **R Installation
