@@ -45,7 +45,7 @@ There are some limitations to queries that include R scripts created in
     > To get to data source settings, in **Power BI Desktop** select
     > **File \> Options and settings \> Data source settings**.
 
-![](.//media/img2mod4.png)
+![](.//Media/img2mod4.png)
 
 > From the **Data Source Settings** dialog, select the data source(s)
 > and then select **Edit Permissions\...** and ensure that the **Privacy
