@@ -27,26 +27,22 @@ and follow along. The steps for this example are the following:
     > load the *EuStockMarkets\_NA.csv* file and select **Get Data \>
     > CSV** from the **Home** ribbon in **Power BI Desktop**.
 
-> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_1.png](.//media/image1.png){width="6.302083333333333in"
-> height="5.739583333333333in"}
+> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_1.png](.//media/image1.png)
 
 2.  Select the file and select **Open**, and the CSV is displayed in the
     > **CSV file** dialog.
 
-> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_2.png](.//media/image2.png){width="7.96875in"
-> height="4.0in"}
+> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_2.png](.//media/image2.png)
 
 3.  Once the data is loaded, you\'ll see it in the **Fields** pane in
     > Power BI Desktop.
 
-> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_3.png](.//media/image3.png){width="6.5in"
-> height="5.395833333333333in"}
+> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_3.png](.//media/image3.png)
 
 4.  Open **Query Editor** by selecting **Edit Queries** from the
     > **Home** tab in **Power BI Desktop**.
 
-> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_4.png](.//media/image4.png){width="9.71875in"
-> height="3.7083333333333335in"}
+> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_4.png](.//media/image4.png)
 
 5.  In the **Transform** tab, select **Run R Script** and the **Run R
     > Script** editor appears (shown in the next step). Notice that rows
@@ -54,8 +50,7 @@ and follow along. The steps for this example are the following:
     > see in the following image. The steps below show how R can (and
     > will) complete those rows for you.
 
-> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_5d.png](.//media/image5.png){width="9.90625in"
-> height="7.177083333333333in"}
+> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_5d.png](.//media/image5.png)
 
 6.  For this example, enter the following script code:
 
@@ -81,22 +76,19 @@ and follow along. The steps for this example are the following:
 > When put into the **Run R Script** dialog, the code looks like the
 > following:
 >
-> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_5b.png](.//media/image6.png){width="7.34375in"
-> height="4.197916666666667in"}
+> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_5b.png](.//media/image6.png)
 
 7.  After selecting **OK**, **Query Editor** displays a warning about
     > data privacy.
 
-> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_6.png](.//media/image7.png){width="9.989583333333334in"
-> height="4.78125in"}
+> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_6.png](.//media/image7.png)
 
 8.  For the R scripts to work properly in the Power BI service, all data
     > sources need to be set to *public*. For more information about
     > privacy settings and their implications, see [Privacy
     > Levels](https://docs.microsoft.com/en-us/power-bi/desktop-privacy-levels).
 
-> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_7.png](.//media/image8.png){width="6.71875in"
-> height="2.84375in"}
+> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-in-query-editor/r-in-query-editor\_7.png](.//media/image8.png)
 >
 > Notice a new column in the **Fields** pane called *completedValues*.
 > Notice there are a few missing data elements, such as on row 15 and
@@ -158,8 +150,7 @@ Run your R script and import data
     > Settings** to display installation options, or to select which
     > installation you want to run the R script.
 
-> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-scripts/r-scripts-3.png](.//media/image9.png){width="7.302083333333333in"
-> height="4.75in"}
+> ![https://docs.microsoft.com/en-us/power-bi/media/desktop-r-scripts/r-scripts-3.png](.//media/image9.png)
 >
 > If R is installed and is not identified, you can explicitly provide
 > its location in the text box provided when you expand **R Installation
