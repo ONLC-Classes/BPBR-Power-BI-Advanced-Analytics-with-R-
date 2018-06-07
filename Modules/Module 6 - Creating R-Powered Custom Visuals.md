@@ -8,7 +8,7 @@ yourself.
 
 To use R-powered custom visuals, you first select and download the R
 custom visual you\'re interested in using from the
-[**[AppSource]{.underline}**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1)
+[**[AppSource]**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1)
 gallery of **custom visuals** for Power BI.
 
 The following sections describe how to select, load, and use R-powered
@@ -28,12 +28,12 @@ Following are the steps to browse and select visuals from the online
 **AppSource** site:
 
 1.  Navigate to the Power BI visuals library, found at
-    > [[https://appsource.microsoft.com]{.underline}](https://appsource.microsoft.com/).
+    > [[https://appsource.microsoft.com]](https://appsource.microsoft.com/).
     > Select the *Power BI apps* checkbox under *Refine by product*,
     > then select the **See all** link.
 
 2.  On the [[Power BI
-    > visuals]{.underline}](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1)
+    > visuals]](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1)
     > library page, select **Power BI visuals** from the list of Add-ins
     > in the left pane.
 
@@ -52,9 +52,9 @@ Following are the steps to browse and select visuals from the online
 > visuals in **Power BI Desktop** you *must* install R on the local
 > machine. You can download R from the following locations:
 
-1.  [[CRAN]{.underline}](https://cran.r-project.org/)
+1.  [[CRAN]](https://cran.r-project.org/)
 
-2.  [[MRO]{.underline}](https://mran.microsoft.com/)
+2.  [[MRO]](https://mran.microsoft.com/)
 
 <!-- -->
 
@@ -110,7 +110,7 @@ those visual with the world by contributing your custom visual to the
 the process is outlined in the following location:
 
 -   [[Contributing to the R-powered custom visuals
-    > gallery]{.underline}](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
+    > gallery]](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
 Troubleshoot R-powered custom visuals
 
