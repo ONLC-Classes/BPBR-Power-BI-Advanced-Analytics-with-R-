@@ -19,8 +19,8 @@ Create R visuals in Power BI Desktop
 1.  Select the **R Visual** icon in the **Visualization** pane, as shown
     in the following image, to add an R visual.
 
-> When you add an R visual to a report, **Power BI Desktop** does the
-> following:
+When you add an R visual to a report, **Power BI Desktop** does the
+following:
 
 -   A placeholder R visual image appears on the report canvas.
 
@@ -30,10 +30,10 @@ Create R visuals in Power BI Desktop
     **Values** section in the **Fields** well, just as you would with
     any other **Power BI Desktop** visual.
 
-> Only fields that have been added to the **Fields** well are available
-> to your R script. You can add new fields or remove unneeded fields
-> from the **Fields** well while working on your R script in the **Power BI Desktop R script editor**.
-> **Power BI Desktop** automatically detects which fields you have added or removed.
+Only fields that have been added to the **Fields** well are available
+to your R script. You can add new fields or remove unneeded fields
+from the **Fields** well while working on your R script in the **Power BI Desktop R script editor**.
+**Power BI Desktop** automatically detects which fields you have added or removed.
 
 > Note
 >
@@ -41,20 +41,20 @@ Create R visuals in Power BI Desktop
 
 2.  Now you can use the data you selected to create a plot.
 
-> As you select fields, the **R script editor** generates supporting R
-> script binding code based on your selections in the gray section along
-> the top of the editor pane. As you select or remove additional fields,
-> supporting code in the R script editor is automatically generated or
-> removed accordingly.
+As you select fields, the **R script editor** generates supporting R
+script binding code based on your selections in the gray section along
+the top of the editor pane. As you select or remove additional fields,
+supporting code in the R script editor is automatically generated or
+removed accordingly.
 >
-> In the example shown in the following image, three fields were
-> selected: hp, gear, and drat. As a result of those selections, the R
-> script editor generated the following binding code:
+In the example shown in the following image, three fields were
+selected: hp, gear, and drat. As a result of those selections, the R
+script editor generated the following binding code:
 
 -   A dataframe called **dataset** was created
 
     -   That dataframe is comprised of the different fields selected by
-        > the user
+        the user
 
 <!-- -->
 
@@ -63,7 +63,7 @@ Create R visuals in Power BI Desktop
 <!-- -->
 
 -   Similar to table visuals, fields are grouped and duplicate rows only
-    > appear once
+    appear once
 
 > Tip
 >
@@ -87,17 +87,17 @@ Create R visuals in Power BI Desktop
 > presents it on the canvas. Since the process is executed on your local
 > R installation, make sure the required packages are installed.
 >
-> **Power BI Desktop** replots the visual when any of the following
-> events occur:
+**Power BI Desktop** replots the visual when any of the following
+events occur:
 
 -   When you select **Run** from the **R script editor** title bar
 
 -   Whenever a data change occurs, due to data refresh, filtering, or
     highlighting
 
-> The following image shows an example of the correlation plot code, and
-> it plots the correlations between attributes of different types of
-> cars.
+The following image shows an example of the correlation plot code, and
+it plots the correlations between attributes of different types of
+cars.
 
 1.  To get a larger view of the visualizations, you can minimize the **R
     script editor**. And, of course, like other visuals in **Power BI
@@ -109,31 +109,31 @@ Create R visuals in Power BI Desktop
     advantage of the power of R by adding parameters to the plotting
     command.
 
-> The original plotting command was the following:
->
+The original plotting command was the following:
+
 > corrplot(M, method = \"color\", tl.cex=0.6, tl.srt = 45, tl.col =
 > \"black\")
->
-> With a few changes in the R script, the command is now the following:
->
+
+With a few changes in the R script, the command is now the following:
+
 > corrplot(M, method = \"circle\", tl.cex=0.6, tl.srt = 45, tl.col =
 > \"black\", type= \"upper\", order=\"hclust\")
->
-> As a result, the R visual now plots circles, only considers at the
-> upper half, and reorders the matrix to cluster correlated attributes,
-> as shown in the following image.
->
-> When executing a R script that results in an error, the R visual is
-> not plotted and an error message is displayed on the canvas. For
-> details on the error, select **See details** from the R visual error
-> on the canvas.
->
-> **R scripts security:** R visuals are created from R scripts, which
-> could contain code with security or privacy risks. When attempting to
-> view or interact with an R visual for the first time, a user is
-> presented with a security warning message. Only enable R visuals if
-> you trust the author and source, or after you review and understand
-> the R script.
+
+As a result, the R visual now plots circles, only considers at the
+upper half, and reorders the matrix to cluster correlated attributes,
+as shown in the following image.
+
+When executing a R script that results in an error, the R visual is
+not plotted and an error message is displayed on the canvas. For
+details on the error, select **See details** from the R visual error
+on the canvas.
+
+**R scripts security:** R visuals are created from R scripts, which
+could contain code with security or privacy risks. When attempting to
+view or interact with an R visual for the first time, a user is
+presented with a security warning message. Only enable R visuals if
+you trust the author and source, or after you review and understand
+the R script.
 
 Known limitations
 
