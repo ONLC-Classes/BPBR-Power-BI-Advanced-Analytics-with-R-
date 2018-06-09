@@ -44,11 +44,9 @@ and follow along. The steps for this example are the following:
 
 ![](.//Media/img4mod1.png)
 
-5.  In the **Transform** tab, select **Run R Script** and the **Run R
-    > Script** editor appears (shown in the next step). Notice that rows
-    > 15 and 20 suffer from missing data, as do other rows you can\'t
-    > see in the following image. The steps below show how R can (and
-    > will) complete those rows for you.
+5.  In the **Transform** tab, select **Run R Script** and the **Run R Script** 
+editor appears (shown in the next step). Notice that rows see in the following image.
+The steps below show how R can (and will) complete those rows for you.
 
 ![](.//Media/img5mod1.png)
 
@@ -137,8 +135,8 @@ few limitations:
 
 Run your R script and import data
 
-1.  In Power BI Desktop, the R Script data connector is found in **Get
-    > Data**. To run your R Script, select **Get Data \> More\...**,
+1.  In Power BI Desktop, the R Script data connector is found in 
+    > **Get Data**. To run your R Script, select **Get Data \> More\...**,
     > then select **Other \> R script** as shown in the following image:
 
 2.  If R is installed on your local machine, the latest installed
