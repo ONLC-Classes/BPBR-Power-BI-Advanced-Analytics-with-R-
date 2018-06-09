@@ -190,10 +190,10 @@ custom visual, as shown in the following image.
 
 4.  If the previous steps don\'t work, try the following:
 
-> a\. Use **R Studio** and follow the step outlined in 3.b. above (run the
-> script line from the R console).
->
-> b\. If the previous step doesn\'t work, change **Tools \> Global Options
-> \> Packages** in **R Studio**, and enable the checkbox for **Use
-> Internet Explorer library/proxy for HTTP**, then repeat step 3.b. from
-> the above steps.
+a\. Use **R Studio** and follow the step outlined in 3.b. above (run the
+script line from the R console).
+
+b\. If the previous step doesn\'t work, change **Tools \> Global Options
+\> Packages** in **R Studio**, and enable the checkbox for **Use
+Internet Explorer library/proxy for HTTP**, then repeat step 3.b. from
+the above steps.
