@@ -29,18 +29,15 @@ and follow along. The steps for this example are the following:
 
 ![](.//Media/img1mod1.png)
 
-2.  Select the file and select **Open**, and the CSV is displayed in the
-    > **CSV file** dialog.
+2.  Select the file and select **Open**, and the CSV is displayed in the **CSV file** dialog.
 
 ![](.//Media/img2mod1.png)
 
-3.  Once the data is loaded, you\'ll see it in the **Fields** pane in
-    > Power BI Desktop.
+3.  Once the data is loaded, you\'ll see it in the **Fields** pane in Power BI Desktop.
 
 ![](.//Media/img3mod1.png)
 
-4.  Open **Query Editor** by selecting **Edit Queries** from the
-    > **Home** tab in **Power BI Desktop**.
+4.  Open **Query Editor** by selecting **Edit Queries** from the **Home** tab in **Power BI Desktop**.
 
 ![](.//Media/img4mod1.png)
 
@@ -76,15 +73,12 @@ The steps below show how R can (and will) complete those rows for you.
 >
 ![](.//Media/img6mod1.png)
 
-7.  After selecting **OK**, **Query Editor** displays a warning about
-    > data privacy.
+7.  After selecting **OK**, **Query Editor** displays a warning about data privacy.
 
 ![](.//Media/img7mod1.png)
 
-8.  For the R scripts to work properly in the Power BI service, all data
-    > sources need to be set to *public*. For more information about
-    > privacy settings and their implications, see [Privacy
-    > Levels](https://docs.microsoft.com/en-us/power-bi/desktop-privacy-levels).
+8.  For the R scripts to work properly in the Power BI service, all data sources need to be set to *public*.
+For more information about privacy settings and their implications, see [Privacy Levels](https://docs.microsoft.com/en-us/power-bi/desktop-privacy-levels).
 
 ![](.//Media/img8mod1.png)
 >
@@ -116,37 +110,34 @@ When preparing and running an R script in Power BI Desktop, there are a
 few limitations:
 
 -   Only data frames are imported, so make sure the data you want to
-    > import to Power BI is represented in a data frame
+    import to Power BI is represented in a data frame
 
 -   Columns that are typed as Complex and Vector are not imported, and
-    > are replaced with error values in the created table
+    are replaced with error values in the created table
 
 -   Values that are N/A are translated to NULL values in Power BI
-    > Desktop
+    Desktop
 
 -   Any R script that runs longer than 30 minutes times out
 
 -   Interactive calls in the R script, such as waiting for user input,
-    > halts the script's execution
+    halts the script's execution
 
 -   When setting the working directory within the R script, you *must*
-    > define a full path to the working directory, rather than a
-    > relative path
+    define a full path to the working directory, rather than a
+    relative path
 
 Run your R script and import data
 
-1.  In Power BI Desktop, the R Script data connector is found in 
-    > **Get Data**. To run your R Script, select **Get Data \> More\...**,
+1.  In Power BI Desktop, the R Script data connector is found in **Get Data**.
+    > To run your R Script, select **Get Data \> More\...**,
     > then select **Other \> R script** as shown in the following image:
 
-2.  If R is installed on your local machine, the latest installed
-    > version is selected as your R engine. Simply copy your script into
-    > the script window and select **OK**.
+2.  If R is installed on your local machine, the latest installed version is selected as your R engine. 
+Simply copy your script into the script window and select **OK**.
 
-3.  If R is not installed, is not identified, or if there are multiple
-    > installations on your local machine, expand **R Installation
-    > Settings** to display installation options, or to select which
-    > installation you want to run the R script.
+3.  If R is not installed, is not identified, or if there are multiple installations on your local machine,
+expand **R Installation Settings** to display installation options, or to select which installation you want to run the R script.
 
 ![](.//Media/img9mod1.png)
 >
@@ -162,9 +153,8 @@ Run your R script and import data
 > drop-down menu appears that allows you to select which installation to
 > use.
 
-4.  Select **OK** to run the R Script. When the script runs
-    > successfully, you can then choose the resulting data frames to add
-    > to the Power BI model.
+4.  Select **OK** to run the R Script. 
+    > When the script runs successfully, you can then choose the resulting data frames to add to the Power BI model.
 
 Refresh
 
