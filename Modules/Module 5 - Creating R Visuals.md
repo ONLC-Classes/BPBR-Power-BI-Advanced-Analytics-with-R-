@@ -47,6 +47,8 @@ the top of the editor pane. As you select or remove additional fields,
 supporting code in the R script editor is automatically generated or
 removed accordingly.
 >
+A file containing code for the following examples can be found [[here]](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix).
+
 In the example shown in the following image, three fields were
 selected: hp, gear, and drat. As a result of those selections, the R
 script editor generated the following binding code:
