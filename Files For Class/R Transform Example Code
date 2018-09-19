@@ -1,0 +1,13 @@
+# Filter for "World"
+
+output <- dataset[dataset$CountryCode==900,]
+output$CountryCode = NULL
+
+# Aggregate by region
+
+output <- aggregate(dataset, by=list(dataset$Region), FUN=mean, na.rm=TRUE)
+
+# Add decade column
+
+output <- dataset
+output$Decade <- (output$Year %/% 10) * 10
